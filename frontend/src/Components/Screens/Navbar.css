@@ -1,0 +1,252 @@
+@import url(https://db.onlinewebfonts.com/c/0b8ce836c5fa6b70d00bef263ee25a78?family=MangoSans+Bold);
+
+@font-face {
+  font-family: "MangoSans Bold";
+  src: url("https://db.onlinewebfonts.com/t/0b8ce836c5fa6b70d00bef263ee25a78.eot");
+  src: url("https://db.onlinewebfonts.com/t/0b8ce836c5fa6b70d00bef263ee25a78.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0b8ce836c5fa6b70d00bef263ee25a78.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0b8ce836c5fa6b70d00bef263ee25a78.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/0b8ce836c5fa6b70d00bef263ee25a78.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0b8ce836c5fa6b70d00bef263ee25a78.svg#MangoSans Bold")
+      format("svg");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+
+
+
+.nav-css{
+  border:transparent;
+  box-shadow:none;
+}
+nav{
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 65px;
+  line-height: 65px;
+  top:24px;
+  border: 0;
+  padding: 0;
+  left: 0;
+  font-family: "MangoSans Bold";
+  
+}
+
+
+
+nav .wrapper{
+  position: relative;
+  max-width: 1600px;
+  width: 100%;
+  /* padding: 0 30px; */
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrapper .logo a{
+  color: #000;
+  text-decoration: none;
+}
+.wrapper .nav-links {
+  display: inline-flex;
+}
+.nav-links li{
+  list-style: none;
+}
+
+.wrapper .logo a{
+  color: #000;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+}
+
+.nav-links li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 9px 15px;
+  font-family: "MangoSans";
+  font-style: normal;
+}
+
+.nav-links li:hover .mega-box{
+  top:65px;
+  border: 0;
+  margin: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: all 1s ease;
+  
+  
+}
+
+.nav-links li a:hover{
+  background: rgb(245, 243, 243);
+}
+
+.mega-box{
+  border: 0;
+  margin: 0;
+  position: absolute;
+  top: 40px;
+  background:white;
+  /* width: 1680px; */
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  right: 0;
+  width: fit-content;
+ 
+}
+
+.mega-box .content{
+  background:white;
+  padding: 35px 20px;
+  display:flex;
+  width: 50%;
+  justify-content: space-between;
+
+}
+
+.content .row{
+  width: calc(25% - 30px);
+  line-height: 40px; 
+  background:white;
+}
+
+
+
+.content .row header{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.content .row .mega-links{
+  margin-left: -40px;
+  margin-left: 1px solid rgb(255,255,255,0.09);
+}
+
+.content .row:nth-child(1),
+.content .row:nth-child(2){
+  border-left: 0px;
+}
+.row .mega-links li{
+  /* padding: 0 20px; */
+}
+
+.row .mega-links li a{
+  padding: 0 20px;
+  color: #000;
+  font-size: 17px;
+  display: block;
+}
+
+
+.row .mega-links li a:hover{
+  color: rgb(235, 176, 176);
+}
+
+.image{
+  height: 200px;
+  width: 300px;
+}
+
+
+
+
+
+
+
+
+.mynav {
+  /* background-color: white; */
+  color: rgb(0, 0, 0);
+ 
+  font-family: "MangoSans Bold";
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 1px;
+  font-stretch: 100%;
+  font-weight: bolder;
+}
+
+title{
+  color: #000;
+}
+
+.buttoncolor {
+  color: black;
+  border: white;
+  background-color: white;
+  font-size: 20px;
+}
+
+Button:hover{
+  background-color: none;
+  
+}
+
+#button-tooltip{
+  border-radius: 0%;
+}
+#tool-card{
+  background-color: chocolate;
+  
+}
+p {
+  /* font-family: "MangoSans"; */
+  font-size: 10px;
+  font-style: normal;
+  font-stretch: 100%;
+  letter-spacing: 1px;
+  color: rgb(0, 0, 0);
+}
+
+.nav-brand {
+  margin-left: 0px;
+  /* font-size: 10px; */
+  color: black;
+}
+
+.motto {
+  font-family: "MangoSans Bold";
+  font-size: 12px;
+  font-stretch: 100%;
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0); 
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: white;
+  top: 0;
+  border: 0;
+  padding: 0;
+  margin-top: 0%;
+  border-color: #d5d5d6;
+  margin-bottom: 5px;
+  padding: 2px;
+  
+}
+
+.nav-container {
+  border-width: 0;
+  box-shadow: none;
+  background-color: white;
+}
